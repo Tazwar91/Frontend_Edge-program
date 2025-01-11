@@ -1,0 +1,149 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9fbff;
+    color: #333;
+}
+
+/* Header and Navigation */
+.navbar {
+    background-color: #004a99;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #0066cc;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+/* Main Content */
+.container {
+    margin: 100px auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #004a99;
+    margin-bottom: 1rem;
+}
+
+p, ul {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+ul li {
+    margin-bottom: 0.8rem;
+}
+
+/* Form Styles */
+form .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #004a99;
+    box-shadow: 0 0 5px rgba(0, 74, 153, 0.4);
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Button Styles */
+button {
+    background-color: #004a99;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0066cc;
+}
+
+button:focus {
+    outline: 3px solid #80c1ff;
+    outline-offset: 2px;
+}
+
+/* Center Buttons */
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #004a99;
+    color: white;
+    margin-top: 3rem;
+}

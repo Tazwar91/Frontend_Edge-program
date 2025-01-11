@@ -1,0 +1,46 @@
+body
+{
+    background-color: white;
+}
+
+ul
+{
+    border: 2px;
+    background-color: lightblue;
+    text-align: center;
+}
+div
+{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: inline-flex;
+    
+}
+table
+{
+    background-color: aquamarine;
+}
+tr
+{
+    background-color: brown;
+}
+th
+{
+    font-family:sans-serif;
+}
+
+td
+{
+    font-family: arial;
+    background-color: palevioletred;
+    padding: 2px;
+    margin: 4px,3px,4px,3px;
+    text-align: center;
+
+}
+
+span
+{
+    color: red;
+    margin-left: 100px;
+}

@@ -1,0 +1,112 @@
+/* Reset and Basic Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Main Content */
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .registration-form {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 1rem;
+    color: #0073e6;
+  }
+  
+  /* Form Fields */
+  .registration-form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+  }
+  
+  .registration-form input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .terms input {
+    margin-right: 10px;
+  }
+  
+  /* Button Container to Center */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .registration-form button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }

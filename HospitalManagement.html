@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hospital Management System</h1>
+        <form action="submission_success.html" method="post">
+            <fieldset>
+                <legend>Patient Information</legend>
+
+                <div class="form-group">
+                    <label for="patientName">Patient Name:</label>
+                    <input type="text" id="patientName" name="patientName" placeholder="Enter full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="0" placeholder="Enter age" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="contact">Contact Number:</label>
+                    <input type="tel" id="contact" name="contact" placeholder="Enter contact number" pattern="[0-9]{10}" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" placeholder="Enter address" rows="3" required></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Medical Information</legend>
+
+                <div class="form-group">
+                    <label for="doctor">Doctor Assigned:</label>
+                    <input type="text" id="doctor" name="doctor" placeholder="Enter doctor's name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="department">Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="" disabled selected>Select department</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="orthopedics">Orthopedics</option>
+                        <option value="pediatrics">Pediatrics</option>
+                        <option value="general">General</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="admissionDate">Admission Date:</label>
+                    <input type="date" id="admissionDate" name="admissionDate" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="dischargeDate">Discharge Date:</label>
+                    <input type="date" id="dischargeDate" name="dischargeDate">
+                </div>
+            </fieldset>
+
+            <div class="button-group">
+                <button type="submit" style="background-color: green; color: white;">Submit</button>
+                <button type="reset" style="background-color: red; color: white;">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

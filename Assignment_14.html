@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alias & Function Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Alias using custom CSS for button styles */
+    .btn-alias {
+      background-color: #28a745;
+      color: white;
+      border-radius: 25px;
+      padding: 10px 20px;
+    }
+
+    /* Custom styles for reusable cards */
+    .custom-card {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .custom-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="container my-5">
+    <!-- Alias: Buttons -->
+    <h2>Alias Example: Buttons</h2>
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-danger">Danger Button</button>
+    <button class="btn-alias">Custom Alias Button</button>
+
+    <hr>
+
+    <!-- Function: Reusable Cards -->
+    <h2>Function Example: Reusable Cards</h2>
+    <div class="row">
+      <!-- Card Component -->
+      <div class="col-md-4">
+        <div class="custom-card p-3">
+          <h5 class="card-title">Card Title 1</h5>
+          <p class="card-text">This is a reusable card component with Bootstrap and custom styles.</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+
+      <!-- Card Component -->
+      <div class="col-md-4">
+        <div class="custom-card p-3">
+          <h5 class="card-title">Card Title 2</h5>
+          <p class="card-text">This is a reusable card component with Bootstrap and custom styles.</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+
+      <!-- Card Component -->
+      <div class="col-md-4">
+        <div class="custom-card p-3">
+          <h5 class="card-title">Card Title 3</h5>
+          <p class="card-text">This is a reusable card component with Bootstrap and custom styles.</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
